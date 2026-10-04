@@ -156,10 +156,35 @@ The following responsibilities map directly to the Assignment 1 deliverables. Gi
 
 | Team member | Contribution |
 |---|---|
-| Amal El Ahmad | Dataset task: dataset size, input features, split definition, class balance, and checks for missing values, duplicates, and leakage. |
-| Wael Mohamed | Algorithms task: ran the four-model comparison, maintained the shared preprocessing and seed, included the ResNet-50 CNN baseline, and prepared the code for GitHub. |
-| Ala' Abu Hilal | Results-comparison task: prepared the metrics, training-time, model-size, and parameter-count comparison; prepared and reviewed the final report. |
-| Lama Al Ibaisi | Results-discussion task: explained the observed ranking using properties of the data, completed the loss-function ablation analysis, and prepared the five-slide submission. |
+
+| Ala' Abu Hilal | 
+- Dataset task: Analyzed split reproducibility, feature dimensions, and manifest SHA-256 consistency.   
+- Algorithms task: Coded, configured, and trained the DenseNet-121 model architecture.
+- Results-comparison task: Prepared the comparative metrics, training-time analysis, model-size, and parameter-count tables.
+- Results-discussion task: Analyzed the impact of loss-function changes and loss formulation interactions on model stability. 
+- Reporting task: Reviewed, edited, finalized the comprehensive technical report, and document layout. |
+
+| Amal El Ahmad | 
+- Dataset task: Conducted exact duplicate detection, SHA-256 pixel/byte hashing, and partition leakage analysis.
+- Algorithms task: Coded and ran the VGG-16 baseline model, maintained shared preprocessing scripts, and managed checkpoint configurations.
+- Results-comparison task: Benchmarked training loop durations, validation overhead, and per-epoch runtime efficiencies.
+- Results-discussion task: Completed the controlled loss-function ablation analysis comparing focal loss with Cross-Entropy.
+- Reporting task: Formatted dataset audit tables, class distribution figures, and Prepared the three-slide presentation. |
+
+| Wael Mohamed | 
+- Dataset task: Investigated data quality, empty manifest fields, and patient identity mapping.   
+- Algorithms task: Coded, implemented, and ran the ResNet-50 CNN baseline, EfficientNet-B4 checkpoint reused collaboratively, and prepared the GitHub repository.
+- Results-comparison task: Evaluated macro precision, recall, and accuracy benchmarks across all model execution environments.
+- Results-discussion task: Interpreted model ranking shifts observed between focal loss and Cross-Entropy conditions.
+- Reporting task: Formatted experiment logs, reproducibility guidelines, and GitHub codebase documentation. |
+
+| Lama Al Ibaisi | 
+- Dataset task: Evaluated class distribution, split counts, and stratification balance across the five DR grades.
+- Algorithms task: Coded and executed the ViT-B/16 vision transformer pipeline, patch tokenization, and training.
+- Results-comparison task: Analyzed Quadratic Weighted Kappa (QWK) and class-level performance breakdowns for ordinal grading.
+- Results-discussion task: Explained observed performance rankings using dataset properties, class imbalance, and visual features.
+- Reporting task: Prepared the remaining two-slide presentation, and key summary visualizations. |
+
 
 ## Use of AI assistance
 
