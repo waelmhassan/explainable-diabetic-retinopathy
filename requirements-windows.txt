@@ -1,0 +1,2 @@
+# Compatibility alias; the same requirements are used on all platforms.
+-r requirements.txt

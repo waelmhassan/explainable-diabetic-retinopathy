@@ -1,0 +1,28 @@
+# Data and generated experiment outputs
+dataset/
+artifacts/
+Project Files/
+*.zip
+
+# Python environments and caches
+.venv/
+.lime-test-deps/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large or local experiment files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Jupyter temporary files
+*.ipynb_checkpoints
